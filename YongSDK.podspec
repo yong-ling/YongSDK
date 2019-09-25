@@ -17,14 +17,14 @@ Pod::Spec.new do |spec|
 
   spec.name         = "YongSDK"
   spec.version      = "0.0.1"
-  spec.summary      = "A short description of YongSDK."
+  spec.summary      = "YongSDK is a quick helper for testing cocoapods"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  spec.description  = "YongSDK"
+  spec.description  = "YongSDK is a quick helper for testing cocoapods. And it includes a demo and dynamic framework"
 
   spec.homepage     = "https://medium.com/flawless-app-stories/create-your-own-cocoapods-library-da589d5cd270"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
