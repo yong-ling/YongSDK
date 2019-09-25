@@ -12,7 +12,7 @@
 
 #endif /* Calc_h */
 
-@interface Calc
+@interface Calc: NSObject
 
 - (NSInteger)oneAddOne;
 
