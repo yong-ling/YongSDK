@@ -1,0 +1,6 @@
+framework module YongSDK {
+  umbrella header "YongSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
