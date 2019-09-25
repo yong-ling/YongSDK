@@ -15,6 +15,7 @@
 		6B55FF68233AE5E600847C44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B55FF66233AE5E600847C44 /* LaunchScreen.storyboard */; };
 		6B55FF6B233AE5E600847C44 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B55FF6A233AE5E600847C44 /* main.m */; };
 		6B55FF70233AE7A000847C44 /* YongSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B55FF6F233AE7A000847C44 /* YongSDK.m */; };
+		6B55FF73233AEA1000847C44 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B55FF72233AEA1000847C44 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		6B55FF69233AE5E600847C44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6B55FF6A233AE5E600847C44 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6B55FF6F233AE7A000847C44 /* YongSDK.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YongSDK.m; sourceTree = "<group>"; };
+		6B55FF72233AEA1000847C44 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B55FF73233AEA1000847C44 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +61,7 @@
 				6B55FF4C233AE59A00847C44 /* YongSDK */,
 				6B55FF5A233AE5E500847C44 /* YongDemo */,
 				6B55FF4B233AE59A00847C44 /* Products */,
+				6B55FF71233AEA1000847C44 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,6 +98,14 @@
 				6B55FF6A233AE5E600847C44 /* main.m */,
 			);
 			path = YongDemo;
+			sourceTree = "<group>";
+		};
+		6B55FF71233AEA1000847C44 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B55FF72233AEA1000847C44 /* UIKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
