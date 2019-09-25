@@ -14,7 +14,7 @@
 		6B55FF65233AE5E600847C44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B55FF64233AE5E600847C44 /* Assets.xcassets */; };
 		6B55FF68233AE5E600847C44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B55FF66233AE5E600847C44 /* LaunchScreen.storyboard */; };
 		6B55FF6B233AE5E600847C44 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B55FF6A233AE5E600847C44 /* main.m */; };
-		6B55FF70233AE7A000847C44 /* YongSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B55FF6F233AE7A000847C44 /* YongSDK.m */; };
+		6B55FF70233AE7A000847C44 /* Calc.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B55FF6F233AE7A000847C44 /* Calc.m */; };
 		6B55FF73233AEA1000847C44 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B55FF72233AEA1000847C44 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
@@ -32,8 +32,9 @@
 		6B55FF67233AE5E600847C44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6B55FF69233AE5E600847C44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6B55FF6A233AE5E600847C44 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6B55FF6F233AE7A000847C44 /* YongSDK.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YongSDK.m; sourceTree = "<group>"; };
+		6B55FF6F233AE7A000847C44 /* Calc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Calc.m; sourceTree = "<group>"; };
 		6B55FF72233AEA1000847C44 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6B55FF74233AEAA100847C44 /* Calc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Calc.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +80,8 @@
 			children = (
 				6B55FF4D233AE59A00847C44 /* YongSDK.h */,
 				6B55FF4E233AE59A00847C44 /* Info.plist */,
-				6B55FF6F233AE7A000847C44 /* YongSDK.m */,
+				6B55FF6F233AE7A000847C44 /* Calc.m */,
+				6B55FF74233AEAA100847C44 /* Calc.h */,
 			);
 			path = YongSDK;
 			sourceTree = "<group>";
@@ -218,7 +220,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B55FF70233AE7A000847C44 /* YongSDK.m in Sources */,
+				6B55FF70233AE7A000847C44 /* Calc.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

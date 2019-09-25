@@ -7,13 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "YongSDK.h"
+#import "Calc.h"
 
-@interface YongSDK ()
+@interface Calc ()
 
 @end
 
-@implementation YongSDK
+@implementation Calc
 
 - (NSInteger)oneAddOne {
     return 2;
